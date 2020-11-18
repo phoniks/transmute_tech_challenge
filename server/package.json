@@ -1,0 +1,17 @@
+{
+  "name": "transmute_tech_challenge-server",
+  "version": "1.0.0",
+  "description": "Sidetree Server for Transmute Technical Challenge Demo",
+  "main": "src/server.ts",
+  "repository": "https://github.com/phoniks/transmute_tech_challenge",
+  "author": "John Hopkins - @phoniks - johnthopkins@gmail.com ",
+  "license": "Unlicensed",
+  "private": true,
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-typescript": "^7.12.1",
+    "@sidetree/core": "^0.1.1-unstable.18"
+  }
+}
