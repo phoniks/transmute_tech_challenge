@@ -1,5 +1,5 @@
 {
-  "name": "transmute_tech_challenge",
+  "name": "transmute_tech_challenge-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
