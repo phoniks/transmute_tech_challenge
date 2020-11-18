@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import express from 'express'
 import session from 'express-session'
 import bodyParser from 'body-parser'
@@ -60,3 +61,6 @@ app.post("/update", updateDID);
 app.post("/deactivate", deactivateDID);
 
 export default app;
+=======
+console.log('papermaker')
+>>>>>>> f6f034265110c95d74688b759adfaac4b576f459
