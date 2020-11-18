@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import express from 'express'
 import session from 'express-session'
 import bodyParser from 'body-parser'
@@ -81,3 +82,6 @@ app.get("/auth/facebook/callback", passport.authenticate("facebook", { failureRe
 });
 
 export default app;
+=======
+console.log('papermaker')
+>>>>>>> starting backend work
