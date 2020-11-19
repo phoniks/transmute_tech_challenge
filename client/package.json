@@ -6,12 +6,14 @@
     "@material-did/common": "0.0.0-alpha",
     "@material-did/core": "0.0.0-unstable.9",
     "@material-ui/core": "^4.11.0",
+    "@sidetree/wallet": "^0.1.1-unstable.19",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/jest": "^26.0.15",
     "@types/node": "^12.0.0",
     "@types/react-dom": "^16.9.8",
+    "canonicalize": "1.0.5",
     "ethjs": "^0.4.0",
     "moment": "^2.29.1",
     "react": "^16.14.0",
@@ -104,7 +106,7 @@
     }
   },
   "resolutions": {
-    "**/react": "16.7.0-alpha.2",
-    "**/react-dom": "16.7.0-alpha.2"
+    "**/react": "16.14.0",
+    "**/react-dom": "16.14.0"
   }
 }
