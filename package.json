@@ -1,4 +1,5 @@
-{
+{   
+    "name": "transmute_tech_challenge",
     "private": true,
     "workspaces": ["transmute_tech_challenge-client", "transmute_tech_challenge-server"]
-  }
+}
