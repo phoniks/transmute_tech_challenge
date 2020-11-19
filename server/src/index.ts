@@ -1,4 +1,4 @@
-git import express from 'express';
+import express from 'express';
 import session from 'express-session';
 import bodyParser from 'body-parser';
 import flash from 'express-flash';
