@@ -1,18 +1,17 @@
 import {Element} from '@sidetree/element'
 import { blockchain } from './ethereum'
-import web3 from 'web3'
 const config = {
-    batchingIntervalInSeconds: 0,
+    batchingIntervalInSeconds: 360,
     contentAddressableStoreServiceUri: '', 
-    didMethodName: '', 
-    maxConcurrentDownloads: 0,
-    observingIntervalInSeconds: 0,
-    mongoDbConnectionString: '', 
-    databaseName: '',
+    didMethodName: 'elem:ropsten', 
+    maxConcurrentDownloads:    1 ,
+    observingIntervalInSeconds: 360,
+    mongoDbConnectionString: "mongodb://localhost:27017/", 
+    databaseName: 'element-test',
 }
-const protocolVersions = []
+const protocolVersions:any = []
 
-
+console.log(blockchain)
 const sidetree = new Element(config, protocolVersions, blockchain )
 
 sidetree.initialize() 
