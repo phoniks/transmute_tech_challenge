@@ -4747,7 +4747,7 @@ crypto-browserify@3.12.0, crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-crypto-ld@^3.6.0, crypto-ld@^3.7.0:
+crypto-ld@^3.6.0, crypto-ld@^3.7.0, crypto-ld@^3.9.0:
   version "3.9.0"
   resolved "https://registry.yarnpkg.com/crypto-ld/-/crypto-ld-3.9.0.tgz#4f42849a143b5d65f28b018d80bc0fee6cd37ba8"
   integrity sha512-PFE7V6A2QNnUp6iiPVEZI4p8wsztkEWLbY1BAXVnclm/aw4KGwpJ+1Ds4vQUCJ5BsWxj15fwE5rHQ8AWaWB2nw==
@@ -8699,6 +8699,18 @@ jsonld-signatures@^5.0.0, jsonld-signatures@^5.1.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/jsonld-signatures/-/jsonld-signatures-5.2.0.tgz#2f6210c3aad0a50f925991ce3e91c78856c0752d"
   integrity sha512-/dGgMElXc3oBS+/OUwMc3DTK4riHKLE9Lk7NF1Upz2ZlBTNfnOw5uLRkFQOJFBDqDEm5hK6hIfkoC/rCWFh9tQ==
+  dependencies:
+    base64url "^3.0.1"
+    crypto-ld "^3.7.0"
+    jsonld "^2.0.2"
+    node-forge "^0.10.0"
+    security-context "^4.0.0"
+    serialize-error "^5.0.0"
+
+jsonld-signatures@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/jsonld-signatures/-/jsonld-signatures-6.0.0.tgz#aaf1e34fa7d1a9729b2fe85b9b92232e68c883b1"
+  integrity sha512-GIh5DCZ5g5vQBAFcjSDHmYyTaD/fYh5KwlAiKgx83VRzcQNNgzeG7DsLdXcgyCxEai9qIM9u2frZAInKDN5+og==
   dependencies:
     base64url "^3.0.1"
     crypto-ld "^3.7.0"

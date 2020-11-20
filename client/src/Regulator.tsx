@@ -8,8 +8,8 @@ import CreateDID from './CreateDID'
 moment.locale("en");
 
 const applicationData = {
-  "@context": ["https://localhost:4986/CDFA_Cultivators_License"],
-  "@type": "CDFA Cultivator License",
+  "@context": ["https://localhost:4986/california/license/cultivator/application"],
+  "@type": "CDFA Cultivator License Application",
   applicant: "A.C.M.E. Cannabis Cultivators",
   dateRecieved: moment(Date.now()).format("MM/DD/YYYY HH:mm A"),
   backgroundChecksOkay: true,
@@ -29,10 +29,10 @@ const California = () => {
         <CreateDID onClick={() => setRegulatorPage("application")} />
       )}
       {regulatorPage === "application" && (
-        <CultivatorApplication onClick={() => setRegulatorPage("issue")} />
+        <CultivatorApplication onClick={setRegulatorPage}/>
       )}
       {regulatorPage === "issue" && (
-        <IssueLicense onSubmit={submitLicense} license={license} />
+        <IssueLicense onSubmit={submitLicense} application={applicationData} />
       )}
     </>
   );
